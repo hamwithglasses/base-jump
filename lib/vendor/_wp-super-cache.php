@@ -5,8 +5,8 @@
 
 
 
-if( function_exists('wp_super_cache_enable') ) {
-	
+if( defined('WPCACHEHOME') ) {
+
 	//Resets cache on ACF options page save
 	//http://wordpress.stackexchange.com/questions/98526/empty-super-cache-programmatically-with-acf-action
 	//Additional Function to prune the Cache if $post_id is '0' or 'options'
