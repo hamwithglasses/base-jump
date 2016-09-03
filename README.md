@@ -1,4 +1,5 @@
-[<img src="http://i.imgur.com/dJB9IAh.jpg" alt="Base Jump">](https://github.com/hamwithglasses/base-jump/archive/master.zip)
+![alt text](http://i.imgur.com/dJB9IAh.jpg "Base Jump")
+[<img src="http://i.imgur.com/dJB9IAh.jpg" alt="Base Jump">]()
 
 # Base Jump
 A WordPress plugin to help jump-start your custom/base theme.

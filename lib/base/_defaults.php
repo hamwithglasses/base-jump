@@ -23,10 +23,3 @@ function base_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'base_body_classes');
-
-
-//Allow WordPress (aka Yoast) to handle the title
-function base_theme_setup() {
-	add_theme_support( 'title-tag' );
-}
-add_action( 'after_setup_theme', 'base_theme_setup' );

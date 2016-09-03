@@ -39,3 +39,12 @@ function admin_remove_wp_footer ()
     echo '';
 }
 add_filter('admin_footer_text', 'admin_remove_wp_footer');
+
+
+//Remove Help Tabs
+//http://wordpress.stackexchange.com/questions/50723/how-to-remove-help-tabs
+function admin_remove_help() {
+    $screen = get_current_screen();
+    $screen->remove_help_tabs();
+}
+add_action('admin_head', 'admin_remove_help');

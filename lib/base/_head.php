@@ -35,6 +35,9 @@ function base_head_cleanup() {
 add_action( 'init', 'base_head_cleanup' );
 
 
+
+
+
 /***** Remove Emojis *****/
 function base_disable_emojis() {
 	// all actions related to emojis
@@ -77,3 +80,14 @@ function base_meta() {
 <?php
 }
 add_action('wp_head', 'base_meta');
+
+
+
+
+
+/***** Other *****/
+//Allow WordPress to handle the title
+function base_theme_setup() {
+	add_theme_support( 'title-tag' );
+}
+add_action( 'after_setup_theme', 'base_theme_setup' );
