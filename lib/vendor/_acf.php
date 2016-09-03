@@ -10,7 +10,9 @@ if( class_exists('acf') ) {
 		acf_add_options_page([
 			'page_title' => 'Options',
 			'menu_title' => 'Options',
+			'menu_slug' 	=> 'theme-options',
 			'icon_url'   => 'dashicons-layout',
+			'position' => 7
 		]);
 	}
 }

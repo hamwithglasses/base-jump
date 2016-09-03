@@ -3,7 +3,7 @@
 * Plugin Name: Base Jump
 * Plugin URI: https://github.com/hamwithglasses/base-jump
 * Description: Jump-start your base WordPress theme.
-* Version: 0.0.1
+* Version: 0.0.3
 * Author: Kegham Bedoyan
 * Author URI: http://kegh.am
 */
