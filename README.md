@@ -1,5 +1,4 @@
-![alt text](http://i.imgur.com/dJB9IAh.jpg "Base Jump")
-[<img src="http://i.imgur.com/dJB9IAh.jpg" alt="Base Jump">]()
+[<img src="http://i.imgur.com/kCbjfQl.jpg" alt="Base Jump">](https://github.com/hamwithglasses/base-jump/archive/master.zip)
 
 # Base Jump
 A WordPress plugin to help jump-start your custom/base theme.
@@ -26,3 +25,6 @@ There are several plugins that Base Jump ties in with. You don't need to be usin
 - [ACF Pro](https://www.advancedcustomfields.com/pro/)
 - [WordPress SEO (Yoast)](https://yoast.com/wordpress/plugins/seo/)
 - [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
+
+##Special Thanks
+Thanks to [mikerojas87](https://github.com/mikerojas87) and Sara Johnston for contributing and looing over the plugin!
