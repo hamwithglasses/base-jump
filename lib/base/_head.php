@@ -1,14 +1,5 @@
 <?php
 /***** Base - Head *****/
-/*
-Problem: With each new update of WordPress, new shit gets added that is often not useful or not used (eg. emoji).
-
-Question: How do we make sure only what the website really needs is loaded in the head?
-
-Pitfalls: Some of these resources might be necessary in some situations.
-*/
-
-
 
 
 
