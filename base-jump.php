@@ -3,11 +3,17 @@
 * Plugin Name: Base Jump
 * Plugin URI: https://github.com/hamwithglasses/base-jump
 * Description: Jump-start your base WordPress theme.
-* Version: 0.0.4
+* Version: 0.0.5
 * Author: Kegham Bedoyan
 * Author URI: http://kegh.am
 */
 function base_jump_init() {
+	require_once('lib/cleanup/base.php');
+	require_once('lib/cleanup/dashboard.php');
+	require_once('lib/cleanup/wp-branding.php');
+
+
+
 	require_once('lib/helper/main.php'); //helpful functions and repeated code
 	require_once('lib/admin/main.php'); //changes to the admin visually or functionally
 	require_once('lib/base/main.php'); //basic defaults for every theme

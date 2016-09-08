@@ -1,5 +1,5 @@
 <?php
-/***** Admin - Cleanup *****/
+/***** Admin - Menu *****/
 
 
 

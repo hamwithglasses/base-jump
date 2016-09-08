@@ -3,7 +3,7 @@
 /*
 Problem: The login page works just fine, but the branding makes the website end product look cookie-cutter instead of custom. Additionally, what minimial things can we do within WordPress without plugins that keeps the login page more secure.
 
-Question: How do we create a more custom login page and keep it secure?
+Question: How do we create a custom login page and keep it secure?
 */
 
 
@@ -26,6 +26,7 @@ add_filter( 'login_errors', 'admin_login_errors' );
 
 
 //Add login styles to customize the wp-login page
+//Defaults the stylesheet to look in assets/wp-login in the theme folder
 function admin_login_styles() {
 ?>
 <link rel='stylesheet' href='<?= get_bloginfo('template_directory')?>/assets/wp-login/login.css' type='text/css' media='all' />

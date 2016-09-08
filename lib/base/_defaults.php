@@ -23,3 +23,15 @@ function base_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'base_body_classes');
+
+
+//Limit post revisions
+define( 'WP_POST_REVISIONS', 4 );
+
+
+//Enable post formats
+add_theme_support('post-formats', ['aside', 'gallery', 'link', 'image', 'quote', 'video', 'audio']);
+
+
+//Enable HTML5 markup support
+add_theme_support('html5', ['caption', 'comment-form', 'comment-list', 'gallery', 'search-form']);
